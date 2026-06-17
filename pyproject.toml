@@ -1,0 +1,9 @@
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "ANN", "ERA", "S", "FBT", "T20", "RUF", "COM812", "ISC001"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["customer_support_agent"]
